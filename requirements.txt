@@ -1,0 +1,15 @@
+roboflow~=1.1.66
+matplotlib~=3.10.3
+opencv-python~=4.11.0.86
+torch~=2.7.1
+numpy~=2.3.0
+torchvision~=0.22.1
+ultralytics~=8.3.156
+PyYAML~=6.0.2
+pillow~=11.2.1
+supervision~=0.25.1
+lightly_train
+lightly==1.5.21
+lightly-utils==0.0.2
+lightly_train==0.8.0
+lightning-utilities==0.14.3

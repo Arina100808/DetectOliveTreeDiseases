@@ -1,0 +1,16 @@
+names:
+- Anthracnose
+- BlackScale
+- OlivePeacockSpot
+- Psyllid
+- Tuberculosis
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: olive-tree-diseases-large
+  url: https://universe.roboflow.com/neuroniella/olive-tree-diseases-large/dataset/1
+  version: 1
+  workspace: neuroniella
+test: ../test/images
+train: ../train/images
+val: ../valid/images
