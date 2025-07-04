@@ -20,7 +20,7 @@ def download_roboflow_dataset(author, project_name, api_key, version=1, path="da
 
 def main():
     parser = argparse.ArgumentParser(description="Download Roboflow dataset")
-    parser.add_argument('--author', type=str, default="neuroniella", help='Roboflow dataset author')
+    parser.add_argument('--author', type=str, default="arina-fay", help='Roboflow dataset author')
     parser.add_argument('--project_name', type=str, default="olive-tree-diseases", help='Project name on Roboflow')
     parser.add_argument('--version', type=int, default=1, help='Dataset version number')
     parser.add_argument('--path', type=str, default="data", help='Directory to download the dataset to')
@@ -35,7 +35,7 @@ def main():
         api_key=args.api_key,
         version=args.version,
         path=args.path,
-        data_format=args.data_format
+        data_format=args.data_format,
     )
 
 if __name__ == "__main__":

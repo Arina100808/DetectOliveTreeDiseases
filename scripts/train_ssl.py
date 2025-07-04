@@ -32,7 +32,8 @@ def main():
         epochs=args.epochs,
         batch_size=args.batch_size,
         checkpoint=args.checkpoint,
-        resume_interrupted=args.resume_interrupted
+        resume_interrupted=args.resume_interrupted,
+        callbacks={"model_checkpoint": {"every_n_epochs": 5}}
     )
 
 
