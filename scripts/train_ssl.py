@@ -33,7 +33,7 @@ def main():
         batch_size=args.batch_size,
         checkpoint=args.checkpoint,
         resume_interrupted=args.resume_interrupted,
-        callbacks={"model_checkpoint": {"every_n_epochs": 5}}
+        callbacks={"model_checkpoint": {"every_n_epochs": 5}, "model_export": {"every_n_epochs": 5}},
     )
 
 
